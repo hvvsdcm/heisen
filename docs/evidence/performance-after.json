@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-05T20:53:01.472Z",
+  "method": "Three launches each, isolated profile, local fixture, 1.2s settle, sum Electron workingSetSize (KiB, shared pages may be counted more than once). OS caches not flushed; comparative local workload, not universal savings.",
+  "samples": [
+    {
+      "tabs": 0,
+      "run": 1,
+      "visibleMs": 251,
+      "rssKB": 443840,
+      "processes": 4,
+      "renderers": 1,
+      "webContents": 1,
+      "heapUsed": 6685008
+    },
+    {
+      "tabs": 0,
+      "run": 2,
+      "visibleMs": 269,
+      "rssKB": 443440,
+      "processes": 4,
+      "renderers": 1,
+      "webContents": 1,
+      "heapUsed": 6688788
+    },
+    {
+      "tabs": 0,
+      "run": 3,
+      "visibleMs": 248,
+      "rssKB": 443360,
+      "processes": 4,
+      "renderers": 1,
+      "webContents": 1,
+      "heapUsed": 6669312
+    },
+    {
+      "tabs": 20,
+      "run": 1,
+      "visibleMs": 250,
+      "rssKB": 548464,
+      "processes": 5,
+      "renderers": 2,
+      "webContents": 2,
+      "heapUsed": 6765660
+    },
+    {
+      "tabs": 20,
+      "run": 2,
+      "visibleMs": 255,
+      "rssKB": 546944,
+      "processes": 5,
+      "renderers": 2,
+      "webContents": 2,
+      "heapUsed": 6775772
+    },
+    {
+      "tabs": 20,
+      "run": 3,
+      "visibleMs": 251,
+      "rssKB": 546912,
+      "processes": 5,
+      "renderers": 2,
+      "webContents": 2,
+      "heapUsed": 6773784
+    }
+  ]
+}

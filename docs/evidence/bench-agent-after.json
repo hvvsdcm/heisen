@@ -1,0 +1,133 @@
+{
+  "type100Ms": 104.39337499999988,
+  "clickMs": 115.27058399999999,
+  "scrollMs": 133.31895899999995,
+  "keyMs": 105.72608300000002,
+  "taskTotalMs": 451.1736249999999,
+  "observeChars": 14147,
+  "cliOneShotMs": 94.23247949999995,
+  "detail": {
+    "measurements": {
+      "connect": [
+        9.151875000000018
+      ],
+      "open_tab": [
+        98.03966700000001
+      ],
+      "snapshot": [
+        7.776666999999975,
+        5.098542000000066,
+        2.535624999999982
+      ],
+      "type": [
+        114.04445799999996,
+        104.39337499999988
+      ],
+      "click": [
+        115.35058400000003,
+        115.19058399999994
+      ],
+      "scroll": [
+        133.31895899999995
+      ],
+      "press_key": [
+        105.72608300000002
+      ],
+      "screenshot": [
+        113.09124999999995
+      ],
+      "page_markdown": [
+        1.6155409999998938
+      ],
+      "navigate": [
+        114.07720900000004
+      ],
+      "wait_for": [
+        103.86249999999995
+      ],
+      "cliOneShot": [
+        101.26320900000019,
+        87.20174999999972
+      ]
+    },
+    "waitForMs": 103.86249999999995,
+    "steps": [
+      {
+        "name": "web_open",
+        "ms": 70.48724999999968,
+        "requestBytes": 11258,
+        "resultRequestBytes": 11655,
+        "observeChars": null
+      },
+      {
+        "name": "web_observe",
+        "ms": 5.617708000000221,
+        "requestBytes": 11655,
+        "resultRequestBytes": 29137,
+        "observeChars": 14125
+      },
+      {
+        "name": "web_fill",
+        "ms": 107.94712500000014,
+        "requestBytes": 29137,
+        "resultRequestBytes": 46745,
+        "observeChars": null
+      },
+      {
+        "name": "web_observe",
+        "ms": 3.0146249999997963,
+        "requestBytes": 46745,
+        "resultRequestBytes": 64253,
+        "observeChars": 14147
+      },
+      {
+        "name": "web_click",
+        "ms": 115.62429199999997,
+        "requestBytes": 64253,
+        "resultRequestBytes": 81838,
+        "observeChars": null
+      },
+      {
+        "name": "web_observe",
+        "ms": 4.889709000000039,
+        "requestBytes": 81838,
+        "resultRequestBytes": 99346,
+        "observeChars": 14147
+      },
+      {
+        "name": "web_click",
+        "ms": 108.39391699999987,
+        "requestBytes": 99346,
+        "resultRequestBytes": 116931,
+        "observeChars": null
+      },
+      {
+        "name": "web_observe",
+        "ms": 5.141500000000178,
+        "requestBytes": 116931,
+        "resultRequestBytes": 134439,
+        "observeChars": 14147
+      },
+      {
+        "name": "file_write",
+        "ms": 4.195125000000189,
+        "requestBytes": 134439,
+        "resultRequestBytes": 134844,
+        "observeChars": null
+      },
+      {
+        "name": "task_finish",
+        "ms": 2.2057079999999587,
+        "requestBytes": 134844,
+        "resultRequestBytes": null,
+        "observeChars": null
+      }
+    ],
+    "background": true,
+    "fixture": {
+      "links": 150,
+      "bodyTextChars": 12736
+    },
+    "stepTiming": "Model response sent to next model request received; final step ends at tasks.wait resolution. Includes local transport, serialization and engine bookkeeping; requestBytes is the request that selected each step."
+  }
+}

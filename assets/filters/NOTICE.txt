@@ -1,0 +1,29 @@
+EasyList / EasyPrivacy — © The EasyList authors, https://easylist.to
+CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/) (dual GPLv3).
+Distributed here under CC BY-SA 3.0; the compiled filter data retains that license.
+Unmodified lists compiled into Heisen's blocking engine on 2026-11-06.
+Only network filters are compiled; cosmetic filters are excluded.
+Sources: https://easylist.to/easylist/easyprivacy.txt
+         https://easylist.to/easylist/easylist.txt
+Licensing: https://easylist.to/pages/licence.html
+Fetch dates, source versions, SHA-256 digests and sizes: VERSIONS.json.
+Refresh manually with npm run filters; normal builds and runtime do not fetch lists.
+
+@ghostery/adblocker — Ghostery — MPL-2.0, used without source modifications.
+Source: https://github.com/ghostery/adblocker
+License: https://www.mozilla.org/MPL/2.0/
+
+tldts — Rémi Berson — MIT.
+Source and license: https://github.com/remusao/tldts
+
+@mozilla/readability — Mozilla — Apache-2.0.
+Source: https://github.com/mozilla/readability
+License: https://www.apache.org/licenses/LICENSE-2.0
+
+yaml — Eemeli Aro — ISC.
+Source and license: https://github.com/eemeli/yaml
+
+diff — BSD-3-Clause.
+Source and license: https://github.com/kpdecker/jsdiff
+
+Bundled dependency license texts are included in THIRD_PARTY_NOTICES.txt.

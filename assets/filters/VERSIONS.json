@@ -1,0 +1,16 @@
+{
+  "easyprivacy": {
+    "fetchedAt": "2026-11-06T13:48:07.955Z",
+    "sha256": "58d09ebf134e4c4608f7358343a2c4c511a8027707d92bd7dae9b1f0ca71bdce",
+    "version": "202611061327",
+    "bytes": 1513247,
+    "binBytes": 1679753
+  },
+  "easylist": {
+    "fetchedAt": "2026-11-06T13:48:08.358Z",
+    "sha256": "8805047cc1c5e5e1151d6f9bc4600631dfd42b03185656c6f4d8051a39602b08",
+    "version": "202611061327",
+    "bytes": 2068954,
+    "binBytes": 1518025
+  }
+}

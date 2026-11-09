@@ -1,0 +1,20 @@
+#!/bin/sh
+# Resolve installed symlinks without requiring GNU readlink -f on macOS.
+launcher=$0
+case "$launcher" in */*) ;; *) launcher=$(command -v "$launcher") || exit 4 ;; esac
+while [ -L "$launcher" ]; do
+  dir=$(CDPATH= cd -P -- "$(/usr/bin/dirname "$launcher")" && pwd) || exit 4
+  launcher=$(/usr/bin/readlink "$launcher") || exit 4
+  case "$launcher" in /*) ;; *) launcher=$dir/$launcher ;; esac
+done
+dir=$(CDPATH= cd -P -- "$(/usr/bin/dirname "$launcher")" && pwd) || exit 4
+
+# GUI-launched shells may not inherit Homebrew's PATH.
+for node in "$(command -v node 2>/dev/null)" /opt/homebrew/bin/node /usr/local/bin/node /usr/bin/node; do
+  [ -n "$node" ] && [ -x "$node" ] || continue
+  if "$node" -e 'process.exit(Number(process.versions.node.split(".")[0]) >= 22 ? 0 : 1)' >/dev/null 2>&1; then
+    exec "$node" "$dir/heisen.mjs" "$@"
+  fi
+done
+printf '%s\n' 'Node.js 22 이상이 필요합니다. https://nodejs.org' >&2
+exit 4

@@ -1,0 +1,73 @@
+Heisen dangerous-site protection — third-party list notices
+
+The updater downloads the following public domain-name feeds. Visited URLs,
+paths, query strings and browsing history are never sent to these services.
+Lookup is local in safebrowsing/safebrowsing.sqlite. Lists are checked after
+15 seconds and hourly thereafter, with a twelve-hour per-feed freshness window
+and conditional ETag requests. Failed updates retain the last good list; first
+launch offline has no list and does not block. Session exceptions do not persist.
+No feed snapshot is bundled. This notice is shipped in dist/filters.
+
+Sources verified 2026-11-07 (sizes are observations, not integrity assertions):
+The Block List Project — Unlicense (NOT MIT)
+https://github.com/blocklistproject/Lists
+https://raw.githubusercontent.com/blocklistproject/Lists/master/LICENSE
+https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt — 50,910,539 bytes
+https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt — 4,164,418 bytes
+https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt — 155,461 bytes
+https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt — 51,534 bytes
+https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt — 5,657,997 bytes
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <https://unlicense.org>
+
+Phishing.Database — MIT License
+https://github.com/Phishing-Database/Phishing.Database
+https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/master/LICENSE
+https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/master/phishing-domains-ACTIVE.txt — 11,023,128 bytes
+
+MIT License
+
+Copyright (c) 2018-2025 Mitchell Krog - github.com/mitchellkrogza
+Copyright (c) 2018-2025 Nissar Chababy - github.com/funilrys
+Copyright (c) 2018-2025 Phishing.Database Contributors - github.com/Phishing-Database
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
